@@ -1,3 +1,8 @@
 from database import inventory_data
+from utils import printInventory
 
-[print(key) for key in inventory_data.keys()]
+
+def menu():
+    print(
+        "1 - Add Supplies\n2 - Move Supplies to Shop\n3 - Check Supplies\n4 - And new Aisle\n5 - Exit"
+    )
